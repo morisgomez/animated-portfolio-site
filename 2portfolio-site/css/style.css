@@ -1,0 +1,1465 @@
+/* for mackbook screens - below */ 
+@media screen and (min-width: 1225px) {
+   
+html {
+  scroll-behavior: smooth;
+}
+    
+body {
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(#141e30, #243b55);
+  font-family: 'Jua', sans-serif;
+  color: #EDEDED;  
+}
+    
+li {
+  display: inline;
+  margin: 20px;
+}
+    
+#links {
+  margin: 100px 0px 0px 0px;
+}
+    
+#name-title {
+  padding: 300px 0px 0px 0px;
+} 
+      
+/* typing effect for text */ 
+#name {
+  text-shadow: 0px 5px 5px black;
+  color: #EDEDED;
+  text-align: center;
+  overflow: hidden; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: typing 5s steps(40, end);
+}
+    
+@keyframes typing {
+  from { width: 0 } to { width: 100%}
+}
+
+/* border rotation effect for button 1 */ 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  box-shadow: 0 0 15px #000000;
+  position: absolute;
+  top: 55%; 
+  left: 35%;
+  transform: translate (-50%, -50%);
+}
+
+.btn {  
+  position: relative;
+  width: 150px;
+  height: 55px;
+  border-radius: 7px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+    
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 200px; 
+  height: 200px;
+  background: conic-gradient(#121212, #595959);
+  animation: effect 3s ease infinite;
+  transition: 1s ease;
+}
+    
+@keyframes effect {
+  100% {
+        transform: rotate(360deg);
+  }
+}
+    
+.container:hover .btn::before {
+  background: #595959;
+}
+    
+#first-links {
+  font-size: 22px;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 147px;
+  height: 52px;
+  background: #121212;
+  text-align: center;
+  line-height: 52px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+    
+/* border rotation effect for button 2 */ 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+    
+.container2 {
+  box-shadow: 0 0 15px #000000;
+  position: absolute;
+  top: 55%; 
+  left: 55%;
+  transform: translate (-50%, -50%);
+}
+    
+.btn2 {
+  position: relative;
+  width: 150px;
+  height: 55px;
+  border-radius: 7px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+    
+.btn2::before {
+  content: "";
+  position: absolute;
+  width: 200px; 
+  height: 200px;
+  background: conic-gradient(#121212, #595959);
+  animation: effect 3s ease infinite;
+  transition: 1s ease;
+}
+    
+@keyframes effect {
+  100% {
+      transform:rotate(360deg);
+    }
+}
+    
+.container2:hover .btn2::before {
+  background: #595959;
+}
+      
+#first-links {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 147px;
+  height: 52px;
+  background: #121212;
+  text-align: center;
+  line-height: 52px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+    
+/* grow effect for button 1 */ 
+.container { 
+  transition: all .2s ease-in-out; 
+}
+    
+.container:hover { 
+  transform: scale(1.2); 
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+    
+/* grow effect for button 2 */ 
+.container2 { 
+  transition: all .2s ease-in-out; 
+}
+    
+.container2:hover { 
+  transform: scale(1.2); 
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+
+
+
+
+/* for small laptops screens - below */ 
+@media only screen and (min-width: 1000px) and (max-width: 1225px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+      
+  body {
+    font-size: 20px;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(#141e30, #243b55);
+    font-family: 'Jua', sans-serif;
+    color: #EDEDED;  
+  }
+      
+  li {
+    display: inline;
+    margin: 20px;
+  }
+      
+  #links {
+    margin: 100px 0px 0px 0px;
+  }
+      
+  #name-title {
+    padding: 200px 0px 0px 0px;
+  } 
+        
+  /* typing effect for text */ 
+  #name {
+    text-shadow: 0px 5px 5px black;
+    color: #EDEDED;
+    text-align: center;
+    letter-spacing: .15em;
+  }
+  
+  /* border rotation effect for button 1 */ 
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  .container {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 60%; 
+    left: 30%;
+    transform: translate (-50%, -50%);
+  }
+  
+  .btn {  
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+          transform:rotate(360deg);
+    }
+  }
+      
+  .container:hover .btn::before {
+    background: #595959;
+  }
+      
+  #first-links {
+    font-size: 22px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* border rotation effect for button 2 */ 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+      
+  .container2 {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 60%; 
+    left: 60%;
+    transform: translate (-50%, -50%);
+  }
+      
+  .btn2 {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn2::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+        transform:rotate(360deg);
+      }
+  }
+      
+  .container2:hover .btn2::before {
+    background: #595959;
+  }
+        
+  #first-links {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* grow effect for button 1 */ 
+  .container { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+      
+  /* grow effect for button 2 */ 
+  .container2 { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container2:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+
+
+
+
+/* for wider ipads screens - below */ 
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+      
+  body {
+    font-size: 20px;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(#141e30, #243b55);
+    font-family: 'Jua', sans-serif;
+    color: #EDEDED;  
+  }
+      
+  li {
+    display: inline;
+    margin: 20px;
+  }
+      
+  #links {
+    margin: 100px 0px 0px 0px;
+  }
+      
+  #name-title {
+    padding: 200px 0px 0px 0px;
+  } 
+        
+  /* typing effect for text */ 
+  #name {
+    text-shadow: 0px 5px 5px black;
+    color: #EDEDED;
+    text-align: center;
+    letter-spacing: .15em;
+  }
+  
+  /* border rotation effect for button 1 */ 
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  .container {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 60%; 
+    left: 27%;
+    transform: translate (-50%, -50%);
+  }
+  
+  .btn {  
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+          transform:rotate(360deg);
+    }
+  }
+      
+  .container:hover .btn::before {
+    background: #595959;
+  }
+      
+  #first-links {
+    font-size: 22px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* border rotation effect for button 2 */ 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+      
+  .container2 {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 60%; 
+    left: 60%;
+    transform: translate (-50%, -50%);
+  }
+      
+  .btn2 {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn2::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+        transform:rotate(360deg);
+      }
+  }
+      
+  .container2:hover .btn2::before {
+    background: #595959;
+  }
+        
+  #first-links {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* grow effect for button 1 */ 
+  .container { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+      
+  /* grow effect for button 2 */ 
+  .container2 { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container2:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+
+
+
+
+/* for regular ipads screens - below */ 
+@media only screen and (min-width: 481px) and (max-width: 700px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+      
+  body {
+    font-size: 15px;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(#141e30, #243b55);
+    font-family: 'Jua', sans-serif;
+    color: #EDEDED;  
+  }
+      
+  li {
+    display: inline;
+    margin: 20px;
+  }
+      
+  #links {
+    margin: 100px 0px 0px 0px;
+  }
+      
+  #name-title {
+    padding: 100px 0px 0px 0px;
+  } 
+        
+  /* typing effect for text */ 
+  #name {
+    text-shadow: 0px 5px 5px black;
+    color: #EDEDED;
+    text-align: center;
+    letter-spacing: .15em;
+  }
+  
+  /* border rotation effect for button 1 */ 
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  .container {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 40%; 
+    left: 35%;
+    transform: translate (-50%, -50%);
+  }
+  
+  .btn {  
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+          transform:rotate(360deg);
+    }
+  }
+      
+  .container:hover .btn::before {
+    background: #595959;
+  }
+      
+  #first-links {
+    font-size: 22px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* border rotation effect for button 2 */ 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+      
+  .container2 {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 60%; 
+    left: 35%;
+    transform: translate (-50%, -50%);
+  }
+      
+  .btn2 {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn2::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+        transform:rotate(360deg);
+      }
+  }
+      
+  .container2:hover .btn2::before {
+    background: #595959;
+  }
+        
+  #first-links {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* grow effect for button 1 */ 
+  .container { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+      
+  /* grow effect for button 2 */ 
+  .container2 { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container2:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+
+
+
+
+/* for smaller ipads screens - below */ 
+@media screen and (min-width: 400px) and (max-width: 481px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+      
+  body {
+    font-size: 15px;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(#141e30, #243b55);
+    font-family: 'Jua', sans-serif;
+    color: #EDEDED;  
+  }
+      
+  li {
+    display: inline;
+    margin: 20px;
+  }
+      
+  #links {
+    margin: 100px 0px 0px 0px;
+  }
+      
+  #name-title {
+    padding: 70px 0px 30px 0px;
+  } 
+        
+  /* typing effect for text */ 
+  #name {
+    text-shadow: 0px 5px 5px black;
+    color: #EDEDED;
+    text-align: center;
+    letter-spacing: .15em;
+  }
+  
+  /* border rotation effect for button 1 */ 
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  .container {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 40%; 
+    left: 30%;
+    transform: translate (-50%, -50%);
+  }
+  
+  .btn {  
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+          transform:rotate(360deg);
+    }
+  }
+      
+  .container:hover .btn::before {
+    background: #595959;
+  }
+      
+  #first-links {
+    font-size: 22px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* border rotation effect for button 2 */ 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+      
+  .container2 {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 60%; 
+    left: 30%;
+    transform: translate (-50%, -50%);
+  }
+      
+  .btn2 {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn2::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+        transform:rotate(360deg);
+      }
+  }
+      
+  .container2:hover .btn2::before {
+    background: #595959;
+  }
+        
+  #first-links {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* grow effect for button 1 */ 
+  .container { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+      
+  /* grow effect for button 2 */ 
+  .container2 { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container2:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+
+
+
+
+/* for regular phone screens - below */ 
+@media screen and (max-width: 400px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+      
+  body {
+    font-size: 15px;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(#141e30, #243b55);
+    font-family: 'Jua', sans-serif;
+    color: #EDEDED;  
+  }
+      
+  li {
+    display: inline;
+    margin: 20px;
+  }
+      
+  #links {
+    margin: 100px 0px 0px 0px;
+  }
+      
+  #name-title {
+    padding: 60px 0px 20px 0px;
+  } 
+        
+  /* typing effect for text */ 
+  #name {
+    text-shadow: 0px 5px 5px black;
+    color: #EDEDED;
+    text-align: center;
+    letter-spacing: .15em;
+  }
+  
+  /* border rotation effect for button 1 */ 
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  .container {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 60%; 
+    left: 30%;
+    transform: translate (-50%, -50%);
+  }
+  
+  .btn {  
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+          transform:rotate(360deg);
+    }
+  }
+      
+  .container:hover .btn::before {
+    background: #595959;
+  }
+      
+  #first-links {
+    font-size: 22px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* border rotation effect for button 2 */ 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+      
+  .container2 {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 80%; 
+    left: 30%;
+    transform: translate (-50%, -50%);
+  }
+      
+  .btn2 {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn2::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+        transform:rotate(360deg);
+      }
+  }
+      
+  .container2:hover .btn2::before {
+    background: #595959;
+  }
+        
+  #first-links {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* grow effect for button 1 */ 
+  .container { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+      
+  /* grow effect for button 2 */ 
+  .container2 { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container2:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+/* /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////// */ 
+
+
+
+
+/* for tiny phone screens - below */ 
+@media screen and (max-width: 340px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+      
+  body {
+    font-size: 13px;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(#141e30, #243b55);
+    font-family: 'Jua', sans-serif;
+    color: #EDEDED;  
+  }
+      
+  li {
+    display: inline;
+    margin: 20px;
+  }
+      
+  #links {
+    margin: 100px 0px 0px 0px;
+  }
+      
+  #name-title {
+    padding: 40px 0px 20px 0px;
+  } 
+        
+  /* typing effect for text */ 
+  #name {
+    text-shadow: 0px 5px 5px black;
+    color: #EDEDED;
+    text-align: center;
+    letter-spacing: .15em;
+  }
+  
+  /* border rotation effect for button 1 */ 
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  .container {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 45%; 
+    left: 26%;
+    transform: translate (-50%, -50%);
+  }
+  
+  .btn {  
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+          transform:rotate(360deg);
+    }
+  }
+      
+  .container:hover .btn::before {
+    background: #595959;
+  }
+      
+  #first-links {
+    font-size: 22px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* border rotation effect for button 2 */ 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+      
+  .container2 {
+    box-shadow: 0 0 15px #000000;
+    position: absolute;
+    top: 70%; 
+    left: 26%;
+    transform: translate (-50%, -50%);
+  }
+      
+  .btn2 {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+  .btn2::before {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: conic-gradient(#121212, #595959);
+    animation: effect 3s ease infinite;
+    transition: 1s ease;
+  }
+      
+  @keyframes effect {
+    100% {
+        transform:rotate(360deg);
+      }
+  }
+      
+  .container2:hover .btn2::before {
+    background: #595959;
+  }
+        
+  #first-links {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #121212;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+      
+  /* grow effect for button 1 */ 
+  .container { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+      
+  /* grow effect for button 2 */ 
+  .container2 { 
+    transition: all .2s ease-in-out; 
+  }
+      
+  .container2:hover { 
+    transform: scale(1.2); 
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+
+}
+    
+    
+
+
+
+
+
+ 
